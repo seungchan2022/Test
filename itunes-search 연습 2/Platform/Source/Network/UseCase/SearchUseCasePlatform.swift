@@ -1,4 +1,4 @@
-// Platform -> Source -> Network -> Core -> UseCase -> SearchUseCasePlatform
+// Platform -> Source -> Network -> UseCase -> SearchUseCasePlatform
 
 import Foundation
 import Domain
