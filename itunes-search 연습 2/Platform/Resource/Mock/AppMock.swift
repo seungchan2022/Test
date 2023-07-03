@@ -1,7 +1,9 @@
 import Foundation
 import Domain
 
-public enum AppMock {
+public enum AppMock {}
+
+extension AppMock {
   public static var Search: SearchEntity.Response.Result {
     let data = try! Data(contentsOf: BundleToken.bundle.url(forResource: "search", withExtension: "josn")!)
     
